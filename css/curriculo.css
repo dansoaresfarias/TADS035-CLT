@@ -1,16 +1,43 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
 table {
     font-family: arial, sans-serif;
     width: 80%;
     padding-left: 10%;
 }
 
-td,
-th {
+td {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
 
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+#apresentacao {
+    text-align: center;
+}
+
+#center {
+    text-align: center;
 }
