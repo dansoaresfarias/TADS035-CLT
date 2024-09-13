@@ -1,9 +1,19 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%;
+    margin-left: 5%;
 }
 
 p {
     text-align: justify;
+    width: 90%;
+    margin-left: 5%;
+}
+
+ul {
+    list-style-type: square;
+    width: 90%;
+    margin-left: 5%;
 }
 
 table {
@@ -26,6 +36,11 @@ th {
 
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+address {
+    width: 90%;
+    margin-left: 5%;
 }
 
 footer {
