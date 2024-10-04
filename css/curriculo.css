@@ -51,6 +51,10 @@ a:active {
     color: rgb(255, 251, 0);
 }
 
+a:link {
+    color: rgb(232, 111, 35);
+}
+
 
 iframe {
     width: 100%;
@@ -59,7 +63,7 @@ iframe {
 
 address {
     width: 90%;
-    margin-left: 5%;
+    padding-left: 5%;
 }
 
 footer {
@@ -74,4 +78,9 @@ footer {
 
 #center {
     text-align: center;
+}
+
+#endereco {
+    width: 90%;
+    margin-left: 5%;
 }
